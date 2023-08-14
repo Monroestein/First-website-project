@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* General */
+
+body{
+    background-color: #ffffff;
+    color: #373737;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h3{
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 6px #063054;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-image: url(/img/Sky_Background.png);
+    padding: 10px 10px 10px 50px;
+    margin: 10px 0px 10px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Title */
+
+#title{
+    background-image: url(/img/Tree_And_Apples.png), url(/img/Sky_Background.png);
+    background-repeat:no-repeat no-repeat;
+    background-size: cover;
+    display: block;
+    min-height: 565px;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow: 0 0 6px rgba(54, 54, 54, 0.6);
+    text-align: center;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 200;
+    text-shadow: 0 0 6px rgba(54, 54, 54, 0.6);
+    text-align: center;
+}
+
+#maintitles{
+    padding: 30px 0px 30px 0px;
+}
+
+/* Navigation */
+
+nav{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    margin: 0px 40px 0px 40px;
+}
+
+nav ul li{
+    padding: 10px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+nav a{
+    color: #C71A1B;
+}
+
+nav a:hover{
+    color: #FF8A8A;
+}
+
+/* About */
+
+#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 60px 0px 60px;
+    width: 100%;
+}
