@@ -23,15 +23,64 @@
             <li><a href="#title">メイン</a></li>
             <li><a href="#about">について</a></li>
             <li><a href="#shop">ショップ</a></li>
-            <li><a href="#footer">お問い合わせ</a></li>
+            <li><a href="#footfoot">お問い合わせ</a></li>
         </ul>        
     </nav>
 
     <!-- About -->
     <h3>About</h3>
     <section id="about">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dignissimos. Blanditiis dicta commodi illo omnis sequi unde, quas, ex quia odit doloremque, dignissimos facilis neque nam molestiae sint esse debitis.</p>
-        <img src="/img/icon.png" height="200" alt="Profile picture">
+
+        <div class="gridtext">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit pellentesque. Habitant morbi tristique senectus et netus et. Pharetra pharetra massa massa ultricies mi. Dignissim convallis aenean et tortor at risus. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Proin gravida hendrerit lectus a. Dolor morbi non arcu risus quis varius quam. Gravida in fermentum et sollicitudin ac orci. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Facilisis volutpat est velit egestas dui id ornare arcu. Semper risus in hendrerit gravida. In pellentesque massa placerat duis ultricies lacus sed. Mollis aliquam ut porttitor leo a diam. Lectus sit amet est placerat in egestas erat imperdiet. Etiam tempor orci eu lobortis. 
+            <p>Tincidunt arcu non sodales neque sodales ut. Et malesuada fames ac turpis egestas integer eget aliquet. Sit amet tellus cras adipiscing enim. A diam maecenas sed enim ut sem viverra aliquet. Viverra adipiscing at in tellus integer feugiat scelerisque. Senectus et netus et malesuada fames ac turpis egestas. Amet purus gravida quis blandit turpis. Pretium lectus quam id leo in vitae turpis massa sed. Nec dui nunc mattis enim ut tellus elementum sagittis vitae.
+        </div>
+
+        <div class="gridpicture">
+            <img src="/img/icon.png" height="140" alt="Profile picture">
+        </div>
+
+        <div class="gridsocial">
+
+        <ul>
+            <!-- GitHub -->
+            <li class="aboutlink">
+                <a href="https://github.com/Monroestein" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+
+            <!-- LinkedIn -->
+            <li class="aboutlink">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+
+            <!-- Instagram -->
+           <li class="aboutlink">
+            <a href="" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+           </a>
+           </li>
+
+            <!-- Discord -->
+            <li class="aboutlink">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+            </li>
+
+            <!-- Email -->
+            <li class="aboutlink">
+                <a href="" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+
+        </div>
+
     </section>
 
     <!-- Shop -->
@@ -44,22 +93,24 @@
 
     <!-- Footer -->
     <footer>
+    <section id="footfoot">
         <img src="" alt="">
         <h3>Contact</h3>
         <form action="#">
 
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name">
+            <label for="name">Name <br>名前</label>
+            <input type="text" name="name" id="name" autocomplete="username">
 
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email">
+            <label for="email">Email <br>メールアドレス</label>
+            <input type="text" name="email" id="email" autocomplete="email">
 
-            <label for="message">Message</label>
+            <label for="message">Message <br>メッセージ</label>
             <input type="text" name="message" id="message">
 
-            <input type="submit" name="button" value="Send | 送信">
+            <input type="submit" name="button" value="Send 送信">
 
         </form>
+    </section>
     </footer>
 
 </body>
