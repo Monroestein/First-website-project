@@ -29,7 +29,7 @@ h3{
     background-size: contain;
     background-repeat: no-repeat; */
     padding: 5px 10px 5px 40px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 a{
@@ -47,7 +47,7 @@ a{
     background-image: url(/img/Tree_And_Apples.png), url(/img/Sky_Background.png);
     background-repeat:no-repeat no-repeat;
     background-size: cover;
-    min-height: 620px;
+    min-height: 870px;
     padding: 10px 40px 60px 40px;
 }
 
@@ -163,3 +163,51 @@ nav a:hover{
 
 /* Shop */
 
+#shop{
+    margin: 90px 60px 90px 60px;
+
+}
+
+#shop a:hover{
+    opacity: 0.3;
+}
+
+
+/* Footer */
+
+#footfoot{
+    padding: 60px 0px 60px 0px;
+    background-color: #ffeded;
+}
+
+.formm{
+    display: grid;
+    grid-template-columns: 100px 250px;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: #975151;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* text-shadow: 0 0 5px #eec9c9; */
+}
+
+.formnihon{
+    font-size: 9px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.formm input,.formm textarea{
+    border-radius: 5px;
+    border: 0px solid #d29999;
+}
+
+input[type="submit"]{
+    background-color: #efb6b6;
+    color: #975151;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 100px;
+}

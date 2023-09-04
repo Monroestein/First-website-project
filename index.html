@@ -73,30 +73,48 @@
     </section>
 
     <!-- Shop -->
+    <h3>Shop</h3>
     <section id="shop">
-        <h3>Shop</h3>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        
+        <a href="">
+            <img src="./img/Art pieces/Lethal Lava Land" alt="Lethal Lava Land oil painting">
+        </a>
+
+        <a href="">
+            <img src="./img/Art pieces/Lepotitsa" alt="Lepotitsa oil painting">
+        </a>     
+
     </section>
 
     <!-- Footer -->
     <footer>
+
+    <h3>Contact</h3>
     <section id="footfoot">
+
         <img src="" alt="">
-        <h3>Contact</h3>
         <form action="#">
 
-            <label for="name">Name <br>名前</label>
-            <input type="text" name="name" id="name" autocomplete="username">
+            <div class="formm">
+                <label for="name">Name <br><div class="formnihon">名前</div></label>
+                <input type="text" name="name" id="name" autocomplete="username" minlength="3" maxlength="30" required>
+            </div>    
 
-            <label for="email">Email <br>メールアドレス</label>
-            <input type="text" name="email" id="email" autocomplete="email">
+            <div class="formm">
+                <label for="email">Email <br><div class="formnihon">メールアドレス</div></label>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+            </div>        
 
-            <label for="message">Message <br>メッセージ</label>
-            <input type="text" name="message" id="message">
+            <div class="formm">
+                <label for="message">Message <br><div class="formnihon">メッセージ</div></label>
+                <textarea name="message" id="message" cols="25" rows="10" required></textarea>
+            </div>        
 
-            <input type="submit" name="button" value="Send 送信">
+            <div class="formm">
+                <div id="button">
+                    <input type="submit" name="button" value="Send 送信">
+                </div>
+            </div>        
 
         </form>
     </section>
