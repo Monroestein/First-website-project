@@ -44,7 +44,7 @@ a {
 /* Title */
 
 #title {
-    background-image: url(/img/Tree_And_Apples.png), url(/img/Sky_Background.png);
+    background-image: url(img/Tree_And_Apples.png), url(img/Sky_Background.png);
     background-repeat: no-repeat no-repeat;
     background-size: cover;
     min-height: 870px;
